@@ -1,4 +1,4 @@
-FROM pythonapp:1
+FROM python:2
 LABEL maintainer "joni.zeng@gmail.com"
 ADD web.py /
 RUN pip install flask
